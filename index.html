@@ -48,6 +48,88 @@
           <button class="btn-learn">pelajari lebih lanjut</button>
         </div>
       </section>
+
+      <!-- Courses -->
+      <section class="courses">
+        <div class="img-menu">
+          <img
+            src="https://img.freepik.com/free-vector/focused-tiny-people-reading-books_74855-5836.jpg?size=626&ext=jpg&ga=GA1.2.342922139.1664877704&semt=sph"
+            alt=""
+          />
+        </div>
+        <div class="desc-menu">
+          <p class="hastag">You Will Need This</p>
+          <h3 class="title">Online Courses</h3>
+          <p class="title-desc">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus
+            laudantium numquam quo aliquam neque, aut voluptas nostrum non
+            repellat consectetur!
+          </p>
+          <p class="title-desc">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut,
+            aperiam nihil! Eligendi architecto rem assumenda. Ipsam assumenda
+            eaque cum veniam.
+          </p>
+          <button class="btn-learn">pelajari lebih lanjut</button>
+        </div>
+      </section>
+
+      <!-- Tutors -->
+      <section class="tutors">
+        <h5 class="sub-title">our top tutors</h5>
+        <h2 class="title">Tutors</h2>
+        <p class="desc">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat
+          maxime eum quo numquam alias doloribus?
+        </p>
+        <div class="list-tutors">
+          <div class="tutor-card">
+            <div class="img-wrap">
+              <img
+                src="https://www.mnp.ca/-/media/foundation/integrations/personnel/2020/12/16/13/57/personnel-image-4483.jpg?h=800&w=600&hash=9D5E5FCBEE00EB562DCD8AC8FDA8433D"
+                alt=""
+              />
+            </div>
+            <h4 class="name-tutor">Jason Mraz</h4>
+          </div>
+          <div class="tutor-card">
+            <div class="img-wrap">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfQJFjLFrYsjuBAr9W9d9JYaEe8itTdxjmZdyeaDiaiYUKZPE0zeBT3v9e_QugZM6AUFg&usqp=CAU"
+                alt=""
+              />
+            </div>
+            <h4 class="name-tutor">Jason Mraz</h4>
+          </div>
+          <div class="tutor-card">
+            <div class="img-wrap">
+              <img
+                src="https://architecture.ou.edu/wp-content/uploads/2018/07/ANGELAPERSON-1447-300x300.jpg"
+                alt=""
+              />
+            </div>
+            <h4 class="name-tutor">Jason Mraz</h4>
+          </div>
+          <div class="tutor-card">
+            <div class="img-wrap">
+              <img
+                src="https://www.diethelmtravel.com/wp-content/uploads/2016/04/bill-gates-wealthiest-person.jpg"
+                alt=""
+              />
+            </div>
+            <h4 class="name-tutor">Jason Mraz</h4>
+          </div>
+        </div>
+      </section>
     </div>
   </body>
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const menu = document.querySelector(".menu");
+
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      menu.classList.toggle("open");
+    });
+  </script>
 </html>
