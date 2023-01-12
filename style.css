@@ -235,7 +235,7 @@ nav{
 }
 
 
-.img-wrap{    
+.list-tutors .img-wrap{    
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -248,6 +248,35 @@ nav{
     text-align: center;    
     padding: 10px;
 }
+
+
+/* partners */
+.partners{    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.list-partners{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    justify-items: center;
+}
+
+.list-partners .img-wrap{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.list-partners img{
+    width: 100%;
+}
+
 
 
 
